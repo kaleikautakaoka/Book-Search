@@ -5,30 +5,17 @@
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-HTML-1f425f.svg)](https://www.javascript.com)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-Bootstrap-1f425f.svg)](https://www.javascript.com)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.javascript.com)
-//mongoose badge
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-MongoDB-1f425f.svg)](https://www.javascript.com)
-
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-Node.js-1f425f.svg)](https://www.javascript.com)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-Express.js-1f425f.svg)](http://expressjs.com/)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-Handle.js-1f425f.svg)](https://handlebarsjs.com/)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-GraphQL-1f425f.svg)](https://graphql.org/)
-[![made-with-javascript](https://img.shields.io/badge/Made%20with)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-CSS-1f425f.svg)](https://www.javascript.com)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
-[![made-with-node.js](https://img.shields.io/badge/Made%20with-Node.js-1f425f.svg)](https://www.javascript.com)
-[![made-with-express.js](https://img.shields.io/badge/Made%20with-Express.js-1f425f.svg)](http://expressjs.com/)
-[![made-with-handle.js](https://img.shields.io/badge/Made%20with-Handle.js-1f425f.svg)](https://handlebarsjs.com/)
 
 
 ## Description
-A full stack application thaat allows users to search for books and save them to their profile. This application uses the Google Books API to search for books and save them to a MongoDB database. This application was built using the MERN stack and uses GraphQL to query the database.
+This is a  full stack application thaat allows users to search for books and save them to their profile. This application uses the Google Books API to search for books and save them to a MongoDB database. This application was built using the MERN stack and uses GraphQL to query the database.
 ---
 
 ## Features
@@ -36,12 +23,35 @@ A full stack application thaat allows users to search for books and save them to
 
 Descripiton of code snippet below
 ```
+code snippet of client side graphql query for get me which is used to get the user information
+```
+```
+export const GET_ME = gql`
+
+query me {
+    me {
+        _id
+        username
+        email
+        bookCount
+        savedBooks {
+            bookId
+            authors
+            description
+            title
+            image
+            link
+        }
+    }
+}
+
+`;
 
 ---
 
 ## Deployment Link
 ---
-- [Book-Search-Link](https://github.com/kaleikautakaoka/Spirit-Commerce)
+- [Book-Search-Link]()
 ---
 
 ## Table of contents
@@ -84,10 +94,10 @@ http://localhost:3001
 ```
 ## Sources
 ---
-- [sequelize](https://sequelize.org/docs/v6/advanced-association-concepts/advanced-many-to-many/)
+- [aloi](https://aloiroberto.medium.com/creating-a-mern-stack-app-from-scratch-7294e748d8d0)
 - [nodesource](https://nodesource.com/)
-- [medium](https://medium.com/the-javascript-dojo/sequelize-project-setup-4a6a566c6cfa)
-- [sebhastian](https://sebhastian.com/mysql-failed-to-open-file-error-2/)
+- [medium](https://medium.com/the-javascript)
+- [react](https://reactjs.org/docs/getting-started.html)
 - [stackoverflow](https://stackoverflow.com/)
 - [digitalocean](https://www.digitalocean.com/community/tutorials/)
 - [eslint](https://www.npmjs.com/package/eslint-plugin-prettier)
