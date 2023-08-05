@@ -20,6 +20,12 @@
     "concurrently": "^5.2.0"
   },
   "dependencies": {
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "mongodb-shell": "^1.0.1"
+  },
+  "engines": {
+    "node": "18.16.0"
   }
 }
+
+
