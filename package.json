@@ -22,6 +22,9 @@
   "dependencies": {
     "if-env": "^1.0.4",
     "mongodb-shell": "^1.0.1"
+  },
+  "engines": {
+    "node": "v16.16.0"
   }
 }
 
