@@ -86,10 +86,7 @@ npm run seed
 npm start
 ```
 
-5. Feel free to test routes via insomnia
-```
-- [Insomnia](https://insomnia.rest/download)
-```
+5. 
 http://localhost:3001
 ```
 ## Sources
